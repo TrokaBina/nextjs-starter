@@ -1,0 +1,6 @@
+node_modules
+next-env.d.ts
+tailwind.config.ts
+commitlint.config.js
+.husky/*
+.lintstagedrc.json
