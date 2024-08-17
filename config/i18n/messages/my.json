@@ -1,5 +1,7 @@
 {
   "HomePage": {
-    "title": "Hai Dunia!"
+    "title": "Hai Dunia!",
+    "description": "Ini deskripsi",
+    "description_two": "ini deskripsi kedua"
   }
 }
