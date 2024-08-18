@@ -1,7 +1,22 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "description": "This is a description",
-    "description_two": "this is description two"
+    "title": "Register an account!",
+    "description": "Please fill up the fields with valid info",
+    "form": {
+      "fullname": {
+        "label": "Full name as per NRIC",
+        "placeholder_1": "First name",
+        "placeholder_2": "Last name"
+      },
+      "email": {
+        "label": "Valid email address",
+        "placeholder": "Email"
+      },
+      "password": {
+        "label": "A strong password",
+        "placeholder_1": "Password",
+        "placeholder_2": "Confirm password"
+      }
+    }
   }
 }

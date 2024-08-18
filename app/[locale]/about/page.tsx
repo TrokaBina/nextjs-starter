@@ -5,8 +5,6 @@ export default function About() {
   return (
     <div className="">
       <h1>{t('title')}</h1>
-      <p>{t('description')}</p>
-      <p>{t('description_two')}</p>
     </div>
   );
 }

@@ -1,7 +1,22 @@
 {
   "HomePage": {
-    "title": "Hai Dunia!",
-    "description": "Ini deskripsi",
-    "description_two": "ini deskripsi kedua"
+    "title": "Daftar akaun!",
+    "description": "Sila isi dengan maklumat yang sah",
+    "form": {
+      "fullname": {
+        "label": "Nama penuh seperti NRIC",
+        "placeholder_1": "Nama depan",
+        "placeholder_2": "Nama belakang"
+      },
+      "email": {
+        "label": "Alamat emel yang sah",
+        "placeholder": "Email"
+      },
+      "password": {
+        "label": "Kata laluan",
+        "placeholder_1": "Kata laluan",
+        "placeholder_2": "Sahkan kata laluan"
+      }
+    }
   }
 }
