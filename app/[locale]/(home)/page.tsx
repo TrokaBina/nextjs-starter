@@ -1,3 +1,4 @@
+import { Paragraph } from '@/platform/components/typography/Paragraph';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitch } from './LanguageSwitch';
 
@@ -9,7 +10,20 @@ export default function Home() {
       <div className="wrapper relative flex flex-col gap-y-4">
         <div className="header w-full">
           <LanguageSwitch />
-
+          <Paragraph
+            className="text-black"
+            style={{ color: 'black' }}
+            size={'default'}
+          >
+            Hello
+          </Paragraph>
+          <Paragraph
+            className="text-black"
+            style={{ color: 'black' }}
+            size={'large'}
+          >
+            Hello
+          </Paragraph>
           <h1 className="title text-2xl text-black font-semibold">{t('title')}</h1>
           <p className="text-black text-lg">{t('description')}</p>
         </div>
