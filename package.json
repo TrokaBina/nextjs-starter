@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,29 +14,33 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "next": "14.2.5",
-    "next-intl": "^3.17.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.5.2"
+    "next": "15.0.3",
+    "next-intl": "^3.25.1",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@typescript-eslint/eslint-plugin": "^8.1.0",
-    "@typescript-eslint/parser": "^8.1.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@types/node": "^20.17.6",
+    "@types/react": "npm:types-react@^19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@^19.0.0-rc.1",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.0.3",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.35.0",
-    "husky": "^9.1.4",
-    "lint-staged": "^15.2.9",
-    "postcss": "^8",
+    "eslint-plugin-react": "^7.37.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "postcss": "^8.4.49",
     "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }
